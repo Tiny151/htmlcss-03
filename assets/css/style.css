@@ -26,9 +26,9 @@ a {
     text-decoration: none;
 }
 
-container {
+.container {
     width: 1170px;
-    min-width: calc(100% - 48px);
+    max-width: calc(100% - 48px);
     margin: 0 auto;
 }
 
@@ -93,7 +93,7 @@ container {
 .logo__text {
     margin-left: 0.6em;
     text-align: right;
-    color: #fff;
+    line-height: 1.6em;
 }
 
 .logo__brand {
@@ -104,7 +104,6 @@ container {
 }
 
 .logo__brand--small {
-    color: #fff;
     font-size: 1.2rem;
     font-weight: 300;
 }
